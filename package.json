@@ -1,0 +1,29 @@
+{
+  "name": "webpack-v1-tutorial",
+  "version": "1.0.0",
+  "description": "This project is a tutorial from the site http://webpack.github.io/docs/tutorials/getting-started/",
+  "main": "bundle.js",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^0.28.0",
+    "style-loader": "^0.16.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "./node_modules/.bin/webpack",
+    "webpack-dev-server": "./node_modules/.bin/webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crismaster/webpack-v1-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crismaster/webpack-v1-tutorial/issues"
+  },
+  "homepage": "https://github.com/crismaster/webpack-v1-tutorial#readme"
+}
